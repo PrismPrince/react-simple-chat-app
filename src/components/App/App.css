@@ -1,7 +1,16 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+:root{
+  --primaryColor:#009688;
+}
 .App {
   text-align: center;
 }
 
+body{
+  background:  #fff;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,4 +39,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.w-100{
+  width:100%;
+
+}
+.plist{
+  width: 100%;
+  padding: 40px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.float-left{
+  float:left;
+  text-align: left;
+
+}
+.float-right{
+  float:right;
+  text-align: right;
+
+}
+
+input{
+  border-radius: 5px;
+}
+a.btn{
+  color:var(--primaryColor);
+  margin: 10px 0;
+}
+
+a.btn:hover{
+  background: var(--primaryColor);
+  color:#fff ;
+}
+
+.names a{
+  width: 100%;
+  text-align: left;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.names img{
+  margin-right: 10px;
+}
+
+.pb-5{
+  padding-bottom: 2rem!important;
 }
