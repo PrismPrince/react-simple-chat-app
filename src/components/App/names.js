@@ -27,8 +27,12 @@ class Names extends React.Component{
       <div className="App">
         <div className="container py-5">
           <div className="plist pb-5">
-
-            <button type="button" className="btn btn-primary float-left">BACK</button>
+            <img src={blank} alt="blank" className="float-left"
+              style={{
+                width: "50px", height: "50px", borderRadius:"50%", marginRight: "10px"
+              }}
+            />
+            <button type="button" className="btn btn-lg btn-primary float-left">LOGOUT</button>
       
             <form className="pb-5">
               <input type="text" placeholder="Search" className="float-right p-2" value={this.state.searchString} onChange={this.handleChange} />
